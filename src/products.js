@@ -71,16 +71,15 @@ function addToCart(id) {
       return false;
     }
   }
-  // alert("addTo cart");
 
   display();
 
-  // alert("addTo cart 2");
+
 }
 
 function display() {
   $("#main").append(btn);
-  //alert("in dis")
+ 
   console.log(cartArray);
   let list =
     "<table><tr><th>id</th><th>name</th><th>price</th><th>quantity</th><th>remove</th></tr>";
