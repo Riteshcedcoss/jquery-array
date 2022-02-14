@@ -41,7 +41,6 @@ for (let i = 0; i < products.length; i++) {
 }
 $("#products").html(str);
 $("#products").on("click", "a.add-to-cart", function () {
-  //clicking on edit link
   //   alert("click" + $(this).data("pid"));
   addToCart($(this).data("pid"));
   display();
@@ -106,7 +105,6 @@ function display() {
   }
   list += "</table>";
   $("#list").html(list);
-  //alert("exit dis")
 }
 function total() {
   $("#total-price").text("total price=" + price);
